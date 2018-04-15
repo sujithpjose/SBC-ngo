@@ -1,4 +1,7 @@
+@import "~sass/variables";
+
 .footer {
+    height: $app-footer-height;
     position: absolute;
     right: 0;
     bottom: 0;
