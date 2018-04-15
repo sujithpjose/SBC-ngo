@@ -1,0 +1,11 @@
+@mixin circle($size) {
+    width: $size;
+    height: $size;
+    line-height: $size;
+    border-radius: 50%;
+}
+
+@mixin reset {
+    padding: 0;
+    margin: 0;
+}

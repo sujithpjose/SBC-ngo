@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./variables";
+@import "./mixins";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    color: $primary-text-color;
+    font-size: $body-font;
+    font-size: $font-normal;
+}
+
+/* padding and margin styles: START */
+.left-5-padding {
+    padding-left: $gutter-5;
+}
+.left-10-padding {
+    padding-left: $gutter-10;
+}
+/* padding and margin styles: END */
+
+/* text styles: START */
+/* text styles: END */
+
+/* layout styles : START */
+.text-right {
+    text-align: end;
+}
+/* layout styles : END */
