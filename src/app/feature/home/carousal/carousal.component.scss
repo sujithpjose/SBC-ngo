@@ -2,6 +2,7 @@
 @import "~sass/mixins";
 
 $carousal-height: 600px;
+$carousal-point-active: #C5E063;
 
 .carousal-img {
     width: 100%;
@@ -18,13 +19,27 @@ $carousal-height: 600px;
     box-shadow: 0px 0px 2px #888888;
     padding: 0.5rem 0.6rem;
     cursor: pointer;
+    opacity: .4;
+    font-size: 1.7rem;
+    color: $primary-text-color;
 }
 
 .leftRs {
     @extend %carousal-button;
+
+    left: 3rem;
 }
 
 .rightRs {
     @extend %carousal-button;
-    right: 0;
+
+    right: 3rem;
+}
+
+.ngxcarouselPoint li {
+    background: $theme-color-1;
+}
+
+.ngxcarouselPoint li.active {
+    background: $carousal-point-active;
 }

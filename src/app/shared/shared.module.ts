@@ -8,6 +8,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { StickyNavModule } from 'ng2-sticky-nav';
 import { NgxCarouselModule } from 'ngx-carousel';
 import 'hammerjs';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,9 @@ import 'hammerjs';
     StickyNavModule,
     NgxCarouselModule
   ],
-  declarations: [],
+  declarations: [
+    AboutUsComponent
+  ],
   exports: [
     CommonModule,
     FormsModule,

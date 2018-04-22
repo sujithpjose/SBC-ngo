@@ -21,9 +21,11 @@ body {
 .left-5-padding {
     padding-left: $gutter-5;
 }
+
 .left-10-padding {
     padding-left: $gutter-10;
 }
+
 /* padding and margin styles: END */
 
 /* text styles: START */
@@ -33,4 +35,9 @@ body {
 .text-right {
     text-align: end;
 }
+
 /* layout styles : END */
+
+.custom-container {
+    padding: $app-padding;
+}

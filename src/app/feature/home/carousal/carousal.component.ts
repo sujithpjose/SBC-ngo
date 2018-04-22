@@ -11,7 +11,7 @@ const imgBaseUrl = 'assets/images/carousal_';
 })
 export class CarousalComponent implements OnInit {
 
-  private carouselOne;
+  private carouselHome;
 
   imageSources: string[] = [
     imgBaseUrl + '1.JPG',
@@ -24,7 +24,7 @@ export class CarousalComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.carouselOne = CarousalConstants.carouselOne;
+    this.carouselHome = CarousalConstants.carouselHome;
   }
 
   public myfunc(event: Event) {
@@ -34,3 +34,5 @@ export class CarousalComponent implements OnInit {
   }
 
 }
+
+/* https://github.com/sheikalthaf/ngx-carousel : REFERENCE */
